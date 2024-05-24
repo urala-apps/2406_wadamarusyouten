@@ -24,9 +24,9 @@ looker　一覧作成
 */
 
 ////////////////////////////////////////////////////////////
-const shopName = "はせや";
-const menu_left = "浅利チャンジャとごぼうの韓国風釜飯";
-const menu_right = "ほたてバター釜飯";
+const shopName = "和田まる商店";
+const menu_left = "厚切り上ハラミ";
+const menu_right = "ワダマルカルビ わさび味";
 
 const menu_pic_left = "2406_vote_menu_left.png";
 const menu_pic_right = "2406_vote_menu_right.png";
@@ -34,7 +34,7 @@ const menu_pic_right = "2406_vote_menu_right.png";
 const btn_left = "2406_vote_btn_left.png";
 const btn_right = "2406_vote_btn_right.png";
 
-const _liffId = "2003940861-D8aypzR1";
+const _liffId = "2003940861-x9Kw0RaQ";
 const GASUrl = "https://script.google.com/macros/s/AKfycbxLSb3L_YFi_NfbZPp_KGHhLRcsi7WlNhG6CWx2EDSAJgFyFAymEL98wEe2m_pO3oXs/exec";
 ////////////////////////////////////////////////////////////
 
