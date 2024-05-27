@@ -6,8 +6,8 @@
 :root {
   --bg: url("2406_vote_bg.png");
   --arrow: url("2406_vote_arrow.png");
-  --btnLeft:url("2406_vote_btn_left.png");
-  --btnRight:url("2406_vote_btn_right.png");
+  --btnLeft: url("2406_vote_btn_left.png");
+  --btnRight: url("2406_vote_btn_right.png");
 }
 
 * {
@@ -72,8 +72,8 @@ body {
   display: flex;
   align-items: flex-end;
 
-/*   opacity: 0.9; */
-/*   z-index: 99; */
+  /*   opacity: 0.9; */
+  /*   z-index: 99; */
 }
 
 .area-flex {
@@ -88,6 +88,7 @@ body {
   align-items: flex-end;
   /* padding: 0;
   margin: 0; */
+  margin: 0 auto;
   width: 100%;
   height: 100%;
 }
@@ -104,7 +105,8 @@ li {
   /* border-right: 1px solid #fff; */
 }
 
-#btn_id_left,#btn_id_right{
+#btn_id_left,
+#btn_id_right {
   width: auto;
   padding: 0;
   margin: 0;
@@ -327,7 +329,7 @@ img.btn_animate00 {
   width: 100px;
   height: 100px;
   margin: 0 auto;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   /* background: #95dade; */
   animation: zoom 2s infinite;
 }
@@ -351,7 +353,7 @@ img.btn_animate00 {
   width: 100px;
   height: 100px;
   margin: 0 auto;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   /* background: #95dade; */
   animation: zoom_R 2s infinite;
 }
@@ -390,7 +392,7 @@ button {
   /* margin-top: 40%; */
   object-fit: cover;
   position: relative;
-  
+
 }
 
 .flexItem_left {
@@ -413,12 +415,16 @@ button {
   position: relative;
 
 }
-.flexItemTop ,.flexItemBottom {
+
+.flexItemTop,
+.flexItemBottom {
   position: relative;
 }
 
 .flexItemTop {
-  margin-bottom:20px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
   z-index: 100;
 }
 
@@ -427,9 +433,9 @@ button {
 }
 
 @media screen and (max-height :500px) {
-  .flexItemTop{
-     width: 70%;
+  .flexItemTop {
+    width: 70%;
     margin: 0 auto;
-    margin-bottom:-40px;
+    margin-bottom: 0px;
   }
 }
